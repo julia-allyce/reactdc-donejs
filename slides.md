@@ -9,10 +9,7 @@ style: style.css
 
 <img src="img/donejs-logo-white.svg" style="width: 80%; margin-top: 3em;" alt="Donejs">
 
-# DenverScript, February 23, 2016
-
--- color dark-grey hero centered
-<h1 style="font-size: 4em">🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥😭🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥</h1>
+# ReactDC, March 8, 2016
 
 -- color dark-grey hero centered
 <div style="margin-top:3em">
@@ -99,67 +96,14 @@ style: style.css
   - [can-ssr](http://github.com/canjs/ssr) - Server-Side Rendering Utilities for CanJS
   - [can-connect](https://github.com/canjs/can-connect) - Assemble real-time, high performance, restful data connections.
 
---
+-- color blue hero
 
-## Getting Started
+## Why React?
 
-<img src="img/donejs-init.png" style="float: right; margin-right: 5em; width: 35%;" alt="donejs init" />
+- Let's be honest: a client asked for it.
+- React is 🔥
+- Lower the barrier to entry
 
-> npm install donejs -g
-
-> donejs init MY-AMAZING-APPLICATION
-
-## Other things...
-
-> donejs develop
-
-> donejs test
-
-> donejs build
-
-> donejs deploy
-
--- centered
-
-## Server Side Rendering
-
-<img src="img/ssr.png" style="width: 80%;" alt="donejs init" />
-
--- centered color hero blue
-<div style="margin-top: 5em">
-  <h1>Progressively Loading Optimized Bundles</h1>
-</div>
-
--- centered
-
-## Content Delivery Networks
-
-<img src="img/no-cdn.gif" style="max-width: 80%;" alt="Deploying without a CDN" />
-
--- centered
-
-## Content Delivery Networks
-
-<img src="img/with-cdn.gif" style="max-width: 80%;" alt="Deploying with a CDN" />
-
-
--- color hero light-grey
-
-## Desktop and Mobile Builds
-
-<img src="img/desktop-mobile.gif" style="float: right; margin-top: 1em;margin-right: 5em; width: 45%;" alt="donejs init" />
-
-#### iOS/Android (Cordova)
-
-> donejs add cordova
-
-> donejs build cordova
-
-#### Desktop (nw.js)
-
-> donejs add nw
-
-> donejs build nw
 
 -- hero color blue centered
 ## Learn More
@@ -203,4 +147,4 @@ style: style.css
 </ul>
 </div>
 </div>
-<h2 style="margin-top: 1em; clear:both">[http://julia-allyce.github.io/denverscript-donejs/](http://julia-allyce.github.io/denverscript-donejs/)</h2>
+<h2 style="margin-top: 1em; clear:both">[http://julia-allyce.github.io/reactdc-donejs/](http://julia-allyce.github.io/reactdc-donejs/)</h2>
