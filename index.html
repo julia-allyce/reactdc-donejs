@@ -770,20 +770,20 @@ h6 {
     <section class="slide-content"><h2 id="app-structure">App Structure</h2>
 <ul>
 <li><code>/src</code><ul>
-<li><code>/models</code></li>
-<li><code>/components</code></li>
+<li><code>/models</code> (data layer)</li>
+<li><code>/components</code> (reusable modules)</li>
 <li><code>/pages</code></li>
-<li><code>app.js</code></li>
+<li><code>app.js</code> (initializes the app and routing)</li>
 </ul>
 </li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden  hero color blue folder-list wide-list" id="slide-13">
+  <div class="slide hidden  hero color light-grey folder-list wide-list" id="slide-13">
     <section class="slide-content"><h2 id="component-structure">Component Structure</h2>
 <ul>
 <li><code>/src/components/input</code><ul>
-<li><code>viewmodel.js</code></li>
+<li><code>viewmodel.js</code> (business logic for component)</li>
 <li><code>input.js</code> (component class)</li>
 <li><code>input.jsx</code> (template)</li>
 <li><code>input.less/scss</code> (styles)</li>
@@ -794,20 +794,38 @@ h6 {
 </ul>
 </section>
   </div>
-  <div class="slide hidden  hero color blue centered" id="slide-14">
-    <section class="slide-content"><h2 id="learn-more">Learn More</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/24U0kvpMVWQ" frameborder="0" allowfullscreen></iframe>
-
-<p><a href="https://youtu.be/24U0kvpMVWQ">High Performance Apps with DoneJS</a></p>
+  <div class="slide hidden  hero color dark-grey" id="slide-14">
+    <section class="slide-content"><h2 id="the-struggle-is-real">The Struggle is Real</h2>
+<ul>
+<li>Building nested components that need to modify the body</li>
+<li>Managing async data with synchronous rendering ( + ssr )</li>
+<li>className 😭 😭</li>
+</ul>
 </section>
   </div>
   <div class="slide hidden  hero color light-grey" id="slide-15">
+    <section class="slide-content"><h2 id="however">However</h2>
+<ul>
+<li>JSX is awesome</li>
+<li>Learning so much 😁</li>
+<li>React is fun</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden  hero color blue centered" id="slide-16">
+    <section class="slide-content"><h2 id="learn-more">Learn More</h2>
+<p><a href="https://github.com/canjs/can-react"><i class="fa fa-link"></i> can-react github (where the magic happens)</a></p>
+<p><a href="https://youtu.be/24U0kvpMVWQ"><i class="fa fa-link"></i> High Performance Apps with DoneJS</a></p>
+<p><a href="http://donejs.com"><i class="fa fa-link"></i> donejs.com</a></p>
+</section>
+  </div>
+  <div class="slide hidden  hero color light-grey" id="slide-17">
     <section class="slide-content"><p><div style="margin-top: 3em"></div></p>
 <h1 id="donejs-training-">DoneJS Training!</h1>
 <h2 id="julia-at-bitovi-com">julia at bitovi.com</h2>
 </section>
   </div>
-  <div class="slide hidden  presenter hero color dark-grey wide-list" id="slide-16">
+  <div class="slide hidden  presenter hero color dark-grey wide-list" id="slide-18">
     <section class="slide-content"><h2 id="the-end-">The End.</h2>
 <div>
 <div class="bio">

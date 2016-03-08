@@ -116,28 +116,44 @@ style: style.css
 ## App Structure
 
 - `/src`
-  - `/models`
-  - `/components`
+  - `/models` (data layer)
+  - `/components` (reusable modules)
   - `/pages`
-  - `app.js`
+  - `app.js` (initializes the app and routing)
 
--- hero color blue folder-list wide-list
+-- hero color light-grey folder-list wide-list
 ## Component Structure
 
 - `/src/components/input`
-  - `viewmodel.js`
+  - `viewmodel.js` (business logic for component)
   - `input.js` (component class)
   - `input.jsx` (template)
   - `input.less/scss` (styles)
   - `demo.html` (fully functioning demo)
   - `input_test.js` (unit and functional tests)
 
+-- hero color dark-grey
+## The Struggle is Real
+
+- Building nested components that need to modify the body
+- Managing async data with synchronous rendering ( + ssr )
+- className 😭 😭
+
+-- hero color light-grey
+## However
+
+- JSX is awesome
+- Learning so much 😁
+- React is fun
+
 -- hero color blue centered
 ## Learn More
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/24U0kvpMVWQ" frameborder="0" allowfullscreen></iframe>
+[<i class="fa fa-link"></i> can-react github (where the magic happens)](https://github.com/canjs/can-react)
 
-[High Performance Apps with DoneJS](https://youtu.be/24U0kvpMVWQ)
+[<i class="fa fa-link"></i> High Performance Apps with DoneJS](https://youtu.be/24U0kvpMVWQ)
+
+[<i class="fa fa-link"></i> donejs.com](http://donejs.com)
 
 -- hero color light-grey
 <div style="margin-top: 3em"></div>
