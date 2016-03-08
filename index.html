@@ -603,6 +603,25 @@ blockquote {
   padding-left: 1em;
 }
 
+.folder-list ul {
+  list-style: none;
+}
+
+.folder-list ul ul {
+  padding: none;
+  margin-top: 0;
+  padding-left: 0px;
+}
+
+.folder-list ul ul li:before {
+  content: '\251C';
+  padding-right: 10px;
+}
+
+.folder-list ul ul li:last-of-type:before {
+  content: '\2514';
+}
+
 img[alt=modlet-before],
 img[alt=modlet-after],
 img[alt=lr-one],
@@ -707,7 +726,7 @@ h6 {
 </section>
   </div>
   <div class="slide hidden  color light-grey hero wide-list" id="slide-9">
-    <section class="slide-content"><h2 id="what-s-in-the-box-">What&#39;s in the box...</h2>
+    <section class="slide-content"><h2 id="in-the-box">In the box</h2>
 <ul>
 <li>Open Source JavaScript framework (MIT)</li>
 <li>Backend services agnostic</li>
@@ -726,29 +745,69 @@ h6 {
 </ul>
 </section>
   </div>
-  <div class="slide hidden  color blue hero" id="slide-10">
+  <div class="slide hidden  color dark-grey hero" id="slide-10">
     <section class="slide-content"><h2 id="why-react-">Why React?</h2>
 <ul>
-<li>Let&#39;s be honest: a client asked for it.</li>
 <li>React is 🔥</li>
 <li>Lower the barrier to entry</li>
+<li>Let&#39;s be honest...a client asked for it.</li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden  hero color blue centered" id="slide-11">
+  <div class="slide hidden  color light-grey hero wide-list" id="slide-11">
+    <section class="slide-content"><h2 id="what-s-goin-on">What&#39;s Goin On</h2>
+<ul>
+<li>React replaces CanJS&#39;s <a href="https://canjs.com/docs/can.Component.html"><code>can.Component</code></a> and <a href="https://canjs.com/docs/can.stache.html"><code>stache</code></a> templates<ul>
+<li>CanJS is DoneJS&#39;s MVVM framework</li>
+</ul>
+</li>
+<li>This is not Flux...</li>
+<li>This is react baked into our MVVM paradigm</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden  hero color blue folder-list wide-list" id="slide-12">
+    <section class="slide-content"><h2 id="app-structure">App Structure</h2>
+<ul>
+<li><code>/src</code><ul>
+<li><code>/models</code></li>
+<li><code>/components</code></li>
+<li><code>/pages</code></li>
+<li><code>app.js</code></li>
+</ul>
+</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden  hero color blue folder-list wide-list" id="slide-13">
+    <section class="slide-content"><h2 id="component-structure">Component Structure</h2>
+<ul>
+<li><code>/src/components/input</code><ul>
+<li><code>viewmodel.js</code></li>
+<li><code>input.js</code> (component class)</li>
+<li><code>input.jsx</code> (template)</li>
+<li><code>input.less/scss</code> (styles)</li>
+<li><code>demo.html</code> (fully functioning demo)</li>
+<li><code>input_test.js</code> (unit and functional tests)</li>
+</ul>
+</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden  hero color blue centered" id="slide-14">
     <section class="slide-content"><h2 id="learn-more">Learn More</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/24U0kvpMVWQ" frameborder="0" allowfullscreen></iframe>
 
 <p><a href="https://youtu.be/24U0kvpMVWQ">High Performance Apps with DoneJS</a></p>
 </section>
   </div>
-  <div class="slide hidden  hero color light-grey" id="slide-12">
+  <div class="slide hidden  hero color light-grey" id="slide-15">
     <section class="slide-content"><p><div style="margin-top: 3em"></div></p>
 <h1 id="donejs-training-">DoneJS Training!</h1>
 <h2 id="julia-at-bitovi-com">julia at bitovi.com</h2>
 </section>
   </div>
-  <div class="slide hidden  presenter hero color dark-grey wide-list" id="slide-13">
+  <div class="slide hidden  presenter hero color dark-grey wide-list" id="slide-16">
     <section class="slide-content"><h2 id="the-end-">The End.</h2>
 <div>
 <div class="bio">

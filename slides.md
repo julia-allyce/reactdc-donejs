@@ -81,7 +81,7 @@ style: style.css
 
 -- color light-grey hero wide-list
 
-## What's in the box...
+## In the box
 
 - Open Source JavaScript framework (MIT)
 - Backend services agnostic
@@ -96,14 +96,41 @@ style: style.css
   - [can-ssr](http://github.com/canjs/ssr) - Server-Side Rendering Utilities for CanJS
   - [can-connect](https://github.com/canjs/can-connect) - Assemble real-time, high performance, restful data connections.
 
--- color blue hero
+-- color dark-grey hero
 
 ## Why React?
-
-- Let's be honest: a client asked for it.
 - React is 🔥
 - Lower the barrier to entry
+- Let's be honest...a client asked for it.
 
+-- color light-grey hero wide-list
+
+## What's Goin On
+
+- React replaces CanJS's [`can.Component`](https://canjs.com/docs/can.Component.html) and [`stache`](https://canjs.com/docs/can.stache.html) templates
+  - CanJS is DoneJS's MVVM framework
+- This is not Flux...
+- This is react baked into our MVVM paradigm
+
+-- hero color blue folder-list wide-list
+## App Structure
+
+- `/src`
+  - `/models`
+  - `/components`
+  - `/pages`
+  - `app.js`
+
+-- hero color blue folder-list wide-list
+## Component Structure
+
+- `/src/components/input`
+  - `viewmodel.js`
+  - `input.js` (component class)
+  - `input.jsx` (template)
+  - `input.less/scss` (styles)
+  - `demo.html` (fully functioning demo)
+  - `input_test.js` (unit and functional tests)
 
 -- hero color blue centered
 ## Learn More

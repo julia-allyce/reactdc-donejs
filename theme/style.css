@@ -243,3 +243,22 @@ blockquote {
   margin: 1.5em;
   padding-left: 1em;
 }
+
+.folder-list ul {
+  list-style: none;
+}
+
+.folder-list ul ul {
+  padding: none;
+  margin-top: 0;
+  padding-left: 0px;
+}
+
+.folder-list ul ul li:before {
+  content: '\251C';
+  padding-right: 10px;
+}
+
+.folder-list ul ul li:last-of-type:before {
+  content: '\2514';
+}
